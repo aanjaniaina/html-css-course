@@ -1,0 +1,14 @@
+.title {
+  font-family: 'Arial';
+  font-weight: bold;
+  font-size: 26px;
+  margin-bottom: 8px;
+}
+  
+.sale {
+  font-family: 'Arial';
+  color: red;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 0px;
+}
