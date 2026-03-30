@@ -1,0 +1,31 @@
+.first-name,
+.first-nama {
+  display: inline-block;
+  margin-bottom: 8px;
+  width: 100px;
+  height: 30px;
+  padding-left: 10px;
+  border-width: 1px;
+  border-radius: 6px;
+}
+
+.email-box {
+  display: block;
+  margin-bottom: 8px;
+  width: 216px;
+  height: 30px;
+  padding-left: 10px;
+  border-width: 1px;
+  border-radius: 6px;
+}
+
+button {
+  background-color: rgb(0, 132, 255);
+  color: white;
+  width: 230px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+}
