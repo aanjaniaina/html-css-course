@@ -1,31 +1,37 @@
-.first-name,
-.first-nama {
-  display: inline-block;
-  margin-bottom: 8px;
-  width: 100px;
-  height: 30px;
-  padding-left: 10px;
+input{
   border-width: 1px;
-  border-radius: 6px;
+  border-style: solid;
+  border-color: rgb(200,200,200);
+  border-radius: 8px;
+  font-size: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 10px;
+  padding-right: 12px;
+  margin-bottom: 12px;
+}
+
+.first-name{
+  width: 148px;  
+}
+
+.last-name {
+  width: 148px;
 }
 
 .email-box {
   display: block;
-  margin-bottom: 8px;
-  width: 216px;
-  height: 30px;
-  padding-left: 10px;
-  border-width: 1px;
-  border-radius: 6px;
+  width: 300px;
 }
 
 button {
-  background-color: rgb(0, 132, 255);
+  background-color: rgb(47, 127, 231);
   color: white;
-  width: 230px;
-  height: 40px;
   border: none;
-  border-radius: 6px;
-  font-size: 15px;
-  font-weight: 600;
+  width: 300px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
 }
