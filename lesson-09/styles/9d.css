@@ -1,0 +1,23 @@
+div {
+  width: 350px;
+  height: 100px;
+  background-color: black;
+}
+
+.title {
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  padding-top: 20px;
+  padding-left: 15px;
+  margin-bottom: 0px;
+}
+
+.text {
+  font-family: Arial;
+  font-size: 14px;
+  color: rgb(180, 180, 180);
+  padding-top: 0px;
+  padding-left: 15px;
+}
