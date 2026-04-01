@@ -1,0 +1,64 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.profile-detail {
+  width: 300px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.profile {
+  display: inline-block;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  vertical-align: middle;
+}
+
+.info {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.name {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.description {
+  font-size: 13px;
+  color: rgb(160, 160, 160);
+  margin-bottom: 3px;
+}
+
+.status {
+  font-size: 12px;
+  color: rgb(160, 160, 160);
+}
+
+.follow {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 70px;
+}
+
+.follow-button {
+  background-color: rgb(68, 137, 216);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

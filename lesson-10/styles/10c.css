@@ -1,0 +1,42 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.video-box {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.video-preview {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.thumbnail {
+  width: 250px;
+}
+
+.video-info {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 5px;
+}
+
+.video-title {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.video-author {
+  font-size: 15px;
+  color: gray;
+  margin-top: 5px;
+}
+
+.video-stat {
+  font-size: 15px;
+  color: gray;
+  margin-top: 5px;
+}
