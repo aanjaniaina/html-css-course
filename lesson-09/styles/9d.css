@@ -1,23 +1,25 @@
-div {
-  width: 350px;
-  height: 100px;
-  background-color: black;
-}
-
-.title {
+p {
   font-family: Arial;
-  font-size: 17px;
-  font-weight: bold;
-  color: white;
-  padding-top: 20px;
-  padding-left: 15px;
+  margin-top: 0px;
   margin-bottom: 0px;
 }
 
-.text {
-  font-family: Arial;
-  font-size: 14px;
-  color: rgb(180, 180, 180);
-  padding-top: 0px;
+.card {
+  width: 360px;
+  background-color: rgb(33, 33, 33);
+  padding-top: 20px;
+  padding-bottom: 20px;
   padding-left: 15px;
+  padding-right: 15px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: rgb(160, 160, 160);
 }

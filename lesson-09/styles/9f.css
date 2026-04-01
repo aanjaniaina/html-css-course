@@ -1,42 +1,44 @@
-div {
-  width: 150px;
-  height: 245px;
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.30);
-  margin-left: 10px;
+p{
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .profile {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.30);
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
   object-fit: cover;
-  object-position: bottom;
+  margin-bottom: 12px;
 }
 
 .name {
-  font-family: Arial;
+  font-size: 18px;
   font-weight: bold;
-  font-size: 15px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
   margin-left: 8px;
 }
 
-.friend {
-  font-family: Arial;
-  font-size: 12px;
-  color: gray;
-  margin-top: 0px;
-  margin-bottom: 5px;
+.mutual-friends {
+  color: rgb(100, 100, 100);
+  margin-bottom: 12px;
   margin-left: 8px;
 }
 
-.add-button {
-  background-color: rgb(0, 110, 255);
+.add-friend-button {
+  background-color: rgb(24, 119, 242);
   color: white;
   border: none;
-  border-radius: 2px;
-  width: 100px;
-  height: 30px;
-  margin-top: 5px;
-  margin-left: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+  margin-left: 8px;
 }

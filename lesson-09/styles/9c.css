@@ -1,12 +1,12 @@
-div {
+.card {
   width: 300px;
   border: 1px;
   border-style: solid;
+  border-color: rgb(150, 150, 150);
   padding-left: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 
-p {
+.title {
   font-family: Arial;
-  font-size: 15px;
 }
