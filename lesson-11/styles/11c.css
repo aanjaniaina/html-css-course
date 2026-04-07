@@ -1,0 +1,10 @@
+div {
+  background-color: lightpink;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.div-grid{
+  column-gap: 20px;
+  row-gap: 50px;
+}
