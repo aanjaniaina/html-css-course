@@ -1,13 +1,12 @@
-div {
+.grid {
   display: grid;
   grid-template-columns: 200px 75px;
 }
 
-.div-grid-1 {
+.lightblue {
   background-color: lightblue;
 }
 
-.div-grid-2 {
+.lightpink {
   background-color: lightpink;
 }
-
