@@ -1,62 +1,45 @@
 p {
   font-family: Arial;
+  
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.profile-detail {
-  width: 300px;
-  display: grid;
-  grid-template-columns: 50px 100px 20px;
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
-}
-
-.profile {
-  display: inline-block;
-  margin-bottom: 10px;
-}
-
-.profile-picture {
-  width: 50px;
-  height: 50px;
-  border-radius: 25px;
-}
-
-.info {
-  display: inline-block;
-  margin-left: 10px;
-}
-
-.name {
-  font-size: 15px;
-  font-weight: bold;
-  margin-bottom: 3px;
-}
-
-.description {
-  font-size: 13px;
-  color: rgb(160, 160, 160);
-  margin-bottom: 3px;
-}
-
-.status {
-  font-size: 12px;
-  color: rgb(160, 160, 160);
-}
-
-.follow {
-  display: inline-block;
-  margin-left: 70px;
-}
-
-.follow-button {
-  background-color: rgb(68, 137, 216);
+  background-color: rgb(120, 82, 178);
   color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.home-link {
+  font-weight: bold;
+}
+
+.text-box {
   border: none;
-  border-radius: 4px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
+  border-radius: 15px;
+  padding-left: 20px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  width: 500px;
+  height: 30px;
+}
+
+.download-button {
+  background-color: rgb(120, 82, 178);
+  color: white;
+  font-size: 16px;
+  border-color: rgb(255, 255, 255);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px;
+  padding-left: 15x;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }

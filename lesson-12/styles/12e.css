@@ -1,38 +1,34 @@
-p {
+div {
   font-family: Arial;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
-.info-box {
-  display: grid;
-  width: 400px;
-  border-width: 1px;
+.container{
+  width: 300px;
+  border-width: 6px;
   border-style: solid;
-  border-color: gray;
+  border-color: rgb(200, 200, 200);
   border-radius: 5px;
 }
 
-.box {
+.flexbox {
   display: flex;
-  vertical-align: middle;
-  margin-left: 15px;
-  margin-top: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
-.text{
-  width: 340px;
-  margin-bottom: 10px;
-}
-
-.info-stat {
-  flex: 1;
-  background-color: rgb(39, 86, 215);
+.notification {
+  background-color: rgb(49, 109, 245);
   color: white;
   border-radius: 20px;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding-top: 3px;
+  padding-bottom: 3px;
   padding-left: 10px;
   padding-right: 10px;
-  margin-right: 8px;
+  font-size: 14px;
+  font-weight: bold;
 }
