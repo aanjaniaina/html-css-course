@@ -1,0 +1,38 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.info-box {
+  display: grid;
+  width: 400px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  border-radius: 5px;
+}
+
+.box {
+  display: flex;
+  vertical-align: middle;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.text{
+  width: 340px;
+  margin-bottom: 10px;
+}
+
+.info-stat {
+  flex: 1;
+  background-color: rgb(39, 86, 215);
+  color: white;
+  border-radius: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 8px;
+}

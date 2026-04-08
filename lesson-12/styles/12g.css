@@ -1,0 +1,48 @@
+p {
+  font-family: Arial;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+  background-color: rgb(140, 75, 189);
+  height: 50px;
+}
+
+.left-section {
+  width: 100px;
+  margin-left: 10px;
+}
+
+.middle-section {
+  flex: 1;
+}
+
+.search-box {
+  border: none;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  width: 300px;
+}
+
+.right-section {
+  width: 100px;
+}
+
+.download-button {
+  background-color: rgb(140, 75, 189);
+  color: white;
+  border-color: rgb(255, 255, 255);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
