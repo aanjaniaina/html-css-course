@@ -1,0 +1,40 @@
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.lightpink {
+  background-color: lightpink;
+  width: 100px;
+}
+
+.lightblue {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.item-row1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.row2 {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  align-content: space-between;
+}
+
+.item1-row2 {
+  background-color: black;
+  color: white;
+  margin-top: 0;
+  width: 40px;
+}
+
+.item2-row2 {
+  background-color: black;
+  color: white;
+  margin-top: 0;
+  width: 40px;
+}
