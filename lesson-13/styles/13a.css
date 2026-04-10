@@ -4,20 +4,21 @@
   height: 50px;
 }
 
-.lightpink {
+.column1 {
   background-color: lightpink;
   width: 100px;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
-.item {
+.item1 {
   background-color: black;
   color: white;
 }
 
-.lightblue {
+.column2 {
   background-color: lightblue;
   width: 200px;
 }

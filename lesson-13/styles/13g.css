@@ -1,76 +1,77 @@
-.box {
-  width: 450px;
-  display: flex;
-  flex-direction: row;
-  border-style: solid;
-}
-
-.picture {
-  width: 50px;
-  border-radius: 25px;
-}
-
-.text-info {
-  margin-left: 15px;
-}
-
-.header {
-  display: flex;
-  flex-direction: row;
-  padding-top: 5px;
-}
-
-.name {
+div {
   font-family: Arial;
+}
+
+.tweet {
+  width: 420px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.profile-picture-column {
+  margin-right: 10px;
+}
+
+.profile-picture {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.text-column {
+  flex: 1;
+}
+
+.tweet-header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.tweet-author {
   font-weight: bold;
-  margin-bottom: 0;
-  margin-top: 0;
   margin-right: 5px;
 }
 
-.username {
-  font-family: Arial;
-  color: gray;
-  margin-bottom: 0;
-  margin-top: 0;
+.tweet-author-handle {
+  color: rgb(111, 111, 111);
 }
 
-.text {
-  font-family: Arial;
-  margin-bottom: 0;
-  margin-top: 6px;
+.tweet-content {
+  line-height: 20px;
+  margin-bottom: 15;
 }
 
-.video {
+.video-preview {
   border-width: 1px;
   border-style: solid;
-  border-color: grey;
+  border-color: rgb(200, 200, 200);
   border-radius: 15px;
-  width: 350px;
-  margin-left: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  overflow: hidden;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
-.blank {
-  width: 150px;
-  background-color: rgb(196, 195, 195);
-
+.thumbnail-column {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(220, 220, 220);
+  margin-right: 10px;
 }
 
-.video-info {
-  margin-left: 10px;
+.video-info-column {
+  flex: 1;
 }
 
-.youtube-text {
-  color: grey;
-  margin-bottom: 0;
-  margin-top: 20px;
+.video-website {
+  color: rgb(111, 111, 111);
+  margin-bottom: 3px;
 }
 
-.youtube-title {
-  margin-bottom: 5px;
-  margin-top: 5px;
+.video-title {
+  line-height: 22px;
 }
