@@ -1,5 +1,5 @@
 .box {
-  width: 800px;
+  width: 450px;
   display: flex;
   flex-direction: row;
   border-style: solid;
@@ -17,15 +17,60 @@
 .header {
   display: flex;
   flex-direction: row;
+  padding-top: 5px;
 }
 
 .name {
   font-family: Arial;
   font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-right: 5px;
 }
 
 .username {
   font-family: Arial;
   color: gray;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
+.text {
+  font-family: Arial;
+  margin-bottom: 0;
+  margin-top: 6px;
+}
+
+.video {
+  border-width: 1px;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 15px;
+  width: 350px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.blank {
+  width: 150px;
+  background-color: rgb(196, 195, 195);
+
+}
+
+.video-info {
+  margin-left: 10px;
+}
+
+.youtube-text {
+  color: grey;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.youtube-title {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
