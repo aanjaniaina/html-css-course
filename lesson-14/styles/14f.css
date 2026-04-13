@@ -1,47 +1,61 @@
-.images-box {
-  display: flex;
-  flex-direction: column;
+body {
+  height: 3000px;
+}
+
+div {
+  font-family: Arial;
+}
+
+.sidebar1 {
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
-  width: 65px;
   padding-top: 10px;
-  background-color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(33, 33, 33);
 }
 
-img  {
+.picture  {
   width: 50px;
   height: 50px;
+  object-fit: cover;
   border-radius: 25px;
-  padding-left: 7px;
-  padding-bottom: 5px;
+  margin-bottom: 10px;
 }
 
-.info-box {
-  display: flex;
-  flex-direction: column;
+.sidebar2 {
   position: fixed;
   top: 0;
   bottom: 0;
-  left: 65px;
-  width: 200px;
-  padding-top: 10px;
-  background-color: rgb(59, 59, 59);
+  left: 70px;
+  width: 150px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgb(55, 55, 55);
 }
 
-.heading {
+.header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: Arial;
-  color: rgb(200, 200, 200);
-  padding-left: 10px;
-  padding-right: 10px;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
-.text {
-  font-family: Arial;
-  color: rgb(161, 161, 161);
-  padding-left: 10px;
+.name {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.create-new {
+  color: rgb(150, 150, 150);
+  font-size: 25px;
+}
+
+.channel {
+  color: rgb(150, 150, 150);
+  margin-bottom: 16px;
 }
