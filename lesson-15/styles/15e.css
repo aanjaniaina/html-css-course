@@ -1,0 +1,23 @@
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.image {
+  width: 200px;
+  height: 250px;
+}
+
+.discount-box {
+  position: absolute;
+  top: 18px;
+  left: 140px;
+  background-color: black;
+  color: white;
+  font-family: Arial;
+  font-size: 11px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
