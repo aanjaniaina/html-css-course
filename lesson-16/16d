@@ -1,0 +1,4 @@
+Finish the project
+16d. Using everything we learned in this course, create tooltips for the channel pictures like the design below
+
+Extra: wrap the channel picture in a <div> with display: inline-block. Use this <div> as the positio: relative element
