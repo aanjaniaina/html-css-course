@@ -11,6 +11,10 @@
   line-height: 20px;
 }
 
+.title-link {
+  font-style: none;
+}
+
 .video-info-grid {
   display: grid;
   grid-template-columns: 50px 1fr;
